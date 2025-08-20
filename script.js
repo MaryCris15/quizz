@@ -10,15 +10,15 @@ const perguntas = [
     alternativas: [
       {
         texto: "Biscoito de canela",
-        afirmacao: "Você é calmo e quieto,",
+        afirmacao: "Cinnamonroll",
       },
       {
         texto: "Pudim de leite",
-        afirmacao: "Você é alegre e descontraido,",
+        afirmacao: "Pompompurin",
       },
       {
         texto: "Sorvete de banana",
-      afirmacao: "Você é curioso e cheio de energia,",
+      afirmacao: "Pochacco",
       },
     ],
   },
@@ -27,15 +27,16 @@ const perguntas = [
     alternativas: [
       {
         texto: "Maltês",
-        afirmacao: "é muito cuidadoso com os outros,",
+        afirmacao:" Você é calmo e quieto",
+
       },
       {
         texto: "Golden Retriever",
-        afirmacao: "gosta de viver em seu próprio mundo",
+        afirmacao: "Você é alegre e descontraido,",
       },
       {
         texto: "Beagle",
-        afirmacao: "adora descobrir coisas novas",
+        afirmacao: "Você é curioso e cheio de energia,",
       },
     ],
   },
@@ -44,15 +45,15 @@ const perguntas = [
     alternativas: [
       {
         texto: "Azul",
-        afirmacao: "gosta de fazer amigos",
+        afirmacao: "é muito cuidadoso com os outros e sempre tenta ajudar",
       },
       {
         texto: "Amarelo",
-        afirmacao: "tem uma queda por cochilos e momentos de relaxamento",
+        afirmacao: "gosta de viver em seu próprio mundo",
       },
       {
         texto: "Vermelho",
-        afirmacao: "é curioso, mas também um pouco atrapalhado",
+        afirmacao: "adora descobrir coisas novas e explorar o mundo ao seu redor",
       },
     ],
   },
@@ -61,15 +62,15 @@ const perguntas = [
     alternativas: [
       {
         texto: "Comer",
-        afirmacao:  "está sempre disposto a ajudar quando necessário",
+        afirmacao:  "gosta de fazer amigos",
       },
       {
         texto: "Dormir",
-        afirmacao: "muito sociável, fazendo amizade facilmente com todos que encontra",
+        afirmacao: "tem uma queda por cochilos e momentos de relaxamento",
       },
       {
         texto: "Passear",
-        afirmacao: "muito amigável e adora fazer amigos",
+        afirmacao: "é curioso, mas também um pouco atrapalhado",
       },
     ],
   },
@@ -82,7 +83,7 @@ const perguntas = [
       },
       {
         texto: "Tirar uma soneca",
-        afirmacao: "é responsável que leva seus deveres a sério e está sempre disposto a fazer o melhor para ajudar os outros.",
+        afirmacao: "muito sociável, fazendo amizade facilmente com todos que encontra",
       },
       {
         texto: "Praticar esportes",
@@ -124,7 +125,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-  caixaPerguntas.textContent = "Em 2049...";
+  caixaPerguntas.textContent = "Você é...";
   textoResultado.textContent = historiaFinal;
   caixaAlternativas.textContent = "";
 }
