@@ -10,15 +10,15 @@ const perguntas = [
     alternativas: [
       {
         texto: "Biscoito de canela",
-        afirmacao: "Cinnamonroll",
+        afirmacao: "Você é calmo e quieto,",
       },
       {
         texto: "Pudim de leite",
-        afirmacao: "Pompompurim",
+        afirmacao: "Você é alegre e descontraido,",
       },
       {
         texto: "Sorvete de banana",
-        afirmacao: "Pochacco",
+      afirmacao: "Você é curioso e cheio de energia,",
       },
     ],
   },
@@ -27,15 +27,15 @@ const perguntas = [
     alternativas: [
       {
         texto: "Maltês",
-        afirmacao: "Cinnamonroll",
+        afirmacao: "é muito cuidadoso com os outros,",
       },
       {
         texto: "Golden Retriever",
-        afirmacao: "Pompompurim",
+        afirmacao: "gosta de viver em seu próprio mundo",
       },
       {
         texto: "Beagle",
-        afirmacao: "Pochacco",
+        afirmacao: "adora descobrir coisas novas",
       },
     ],
   },
@@ -44,15 +44,15 @@ const perguntas = [
     alternativas: [
       {
         texto: "Azul",
-        afirmacao: "Cinnamonroll",
+        afirmacao: "gosta de fazer amigos",
       },
       {
         texto: "Amarelo",
-        afirmacao: "Pompompurim",
+        afirmacao: "tem uma queda por cochilos e momentos de relaxamento",
       },
       {
         texto: "Vermelho",
-        afirmacao: "Pochacco",
+        afirmacao: "é curioso, mas também um pouco atrapalhado",
       },
     ],
   },
@@ -61,15 +61,15 @@ const perguntas = [
     alternativas: [
       {
         texto: "Comer",
-        afirmacao: "Cinnamonroll",
+        afirmacao:  "está sempre disposto a ajudar quando necessário",
       },
       {
         texto: "Dormir",
-        afirmacao: "Pompompurim",
+        afirmacao: "muito sociável, fazendo amizade facilmente com todos que encontra",
       },
       {
         texto: "Passear",
-        afirmacao: "Pochacco",
+        afirmacao: "muito amigável e adora fazer amigos",
       },
     ],
   },
@@ -78,15 +78,15 @@ const perguntas = [
     alternativas: [
       {
         texto: "Confeitar",
-        afirmacao: "Cinnamonroll",
+        afirmacao: "é naturalmente reservado e pode ficar envergonhado quando recebe muita atenção",
       },
       {
         texto: "Tirar uma soneca",
-        afirmacao: "Pompompurim",
+        afirmacao: "é responsável que leva seus deveres a sério e está sempre disposto a fazer o melhor para ajudar os outros.",
       },
       {
         texto: "Praticar esportes",
-        afirmacao: "Pochacco",
+        afirmacao: "é naturalmente curioso e gosta de explorar coisas novas, o que às vezes o leva a se meter em encrencas. ",
       },
     ],
   },
