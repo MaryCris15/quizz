@@ -10,15 +10,15 @@ const perguntas = [
     alternativas: [
       {
         texto: "Biscoito de canela",
-        afirmacao: "Cinnamonroll",
+        afirmacao: "Cinnamonroll,",
       },
       {
         texto: "Pudim de leite",
-        afirmacao: "Pompompurin",
+        afirmacao: "Pompompurin,",
       },
       {
         texto: "Sorvete de banana",
-      afirmacao: "Pochacco",
+      afirmacao: "Pochacco,",
       },
     ],
   },
@@ -83,7 +83,7 @@ const perguntas = [
       },
       {
         texto: "Tirar uma soneca",
-        afirmacao: "muito sociável, fazendo amizade facilmente com todos que encontra",
+        afirmacao:"é muito sociável, fazendo amizade facilmente com todos que encontra",
       },
       {
         texto: "Praticar esportes",
